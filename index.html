@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+    <form id="form" onsubmit="return false">
+    <label for="url">url</label>
+    <input name="url" id="videoID" type="text">
+    <label for="start">start</label>
+    <input name="start" id="loopS" type="text" > 
+    <label for="end">end</label>
+    <input name="end" id="loopE" type="text" > 
+    <button id="setLoop" onclick="setLoopfn()">Set!</button>
+    </form>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
